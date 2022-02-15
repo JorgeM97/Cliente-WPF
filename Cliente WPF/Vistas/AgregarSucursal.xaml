@@ -1,0 +1,15 @@
+﻿<Window x:Class="Cliente_WPF.Vistas.AgregarSucursal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cliente_WPF.Vistas"
+        mc:Ignorable="d"
+        Title="Inventario" Height="250" Width="350" MaxHeight="250" MaxWidth="350" MinHeight="250" MinWidth="350">
+    <Grid>
+        <Label Content="Regresar" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" MouseDoubleClick="Regresar"/>
+        <Label Content="Nueva sucursal" HorizontalAlignment="Left" Margin="115,49,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextSucursal" HorizontalAlignment="Center" Margin="0,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Button Content="Agregar sucursal" HorizontalAlignment="Left" Margin="115,117,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
